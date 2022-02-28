@@ -1,6 +1,7 @@
 ---
 title: Ruby Lando Plugin
 description: Add a highly configurable ruby service to Lando for local development with all the power of Docker and Docker Compose.
+next: ./config.html
 ---
 
 # Ruby
