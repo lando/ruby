@@ -7,10 +7,10 @@ const _ = require('lodash');
 module.exports = {
   name: 'ruby',
   config: {
-    version: '2.5',
-    supported: ['2.6', '2.5', '2.4', '2.3', '1.9'],
+    version: '2.7',
+    supported: ['3.1', '3.0', '2.7', '2.6', '2.5', '2.4', '2.3', '1.9'],
     patchesSupported: true,
-    legacy: ['1.9'],
+    legacy: ['1.9', '2.5', '2.4', '2.3'],
     command: 'tail -f /dev/null',
     moreHttpPorts: [],
     path: [
