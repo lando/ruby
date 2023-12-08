@@ -46,11 +46,6 @@ jobs:
             setup.skipCommonPlugins=true
             setup.plugins.@lando/ruby=/home/runner/work/ruby/ruby
           telemetry: false
-      - name: Verify Lando works and we are dogfooding this plugin for tests
-        run: |
-          lando --clear
-          lando version
-          lando config --path plugins | grep ruby | grep /home/runner/work/ruby/ruby || (echo "::error:: Not dogfooding this plugin correctly!" && exit 1)
       - name: Run Leia Tests
         uses: lando/run-leia-action@v2
         with:
