@@ -39,9 +39,9 @@
 # We need this so preview environments and the base site look ok on their own
 [[redirects]]
   from = "/"
-  to = "/ruby"
+  to = "/plugins/ruby"
   status = 200
 [[redirects]]
-  from = "/ruby/*"
+  from = "/plugins/ruby/*"
   to = "/:splat"
   status = 200
