@@ -12,6 +12,8 @@ You can easily add it to your Lando app by adding an entry to the [services](htt
 
 ## Supported versions
 
+*   [3.3](https://hub.docker.com/_/ruby)
+*   [3.2](https://hub.docker.com/_/ruby)
 *   [3.1](https://hub.docker.com/_/ruby)
 *   [3.0](https://hub.docker.com/_/ruby)
 *   **[2.7](https://hub.docker.com/_/ruby)** **(default)**

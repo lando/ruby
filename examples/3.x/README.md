@@ -39,6 +39,12 @@ lando ssh -s defaults -c "curl http://localhost | grep TROUBLE"
 
 # Should not serve port 80 for cli
 lando ssh -s cli -c "curl http://localhost" || echo $? | grep 1
+
+# Should run Ruby v3.2
+lando ssh -s v3_2 -c "ruby --version | grep 3.2."
+
+# Should run Ruby 3.3
+lando ssh -s v3_3 -c "ruby --version | grep 3.3."
 ```
 
 Destroy tests

@@ -11,6 +11,11 @@ services:
     type: ruby:3.1.2
   cli:
     type: ruby:3.1
+  v3_2:
+    type: ruby:3.2
+  v3_3:
+    type: ruby:3.3
+
 
 # This is important because it lets lando know to test against the plugin in this repo
 # DO NOT REMOVE THIS!
