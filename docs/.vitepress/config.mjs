@@ -50,8 +50,8 @@ function sidebar() {
         {text: 'GitHub', link: 'https://github.com/lando/ruby/issues/new/choose'},
         {text: 'Slack', link: 'https://www.launchpass.com/devwithlando'},
         {text: 'Contact Us', link: '/support'},
+        {text: 'Examples', link: 'https://github.com/lando/ruby/tree/main/examples'},
       ],
     },
-    {text: 'Examples', link: 'https://github.com/lando/ruby/tree/main/examples'},
   ];
 };
