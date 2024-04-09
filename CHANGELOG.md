@@ -1,3 +1,6 @@
+## v1.2.0 - [April 9, 2024](https://github.com/lando/ruby/releases/tag/v1.2.0)
+  * Added support for Ruby 3.2 and 3.3
+
 ## v1.1.0 - [March 8, 2024](https://github.com/lando/ruby/releases/tag/v1.1.0)
   * Updated to latest database services.
 
