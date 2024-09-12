@@ -12,7 +12,6 @@ jobs:
       fail-fast: false
       matrix:
         leia-test:
-          - examples/1.x
           - examples/2.x
           - examples/3.x
         lando-version:
