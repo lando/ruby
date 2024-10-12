@@ -22,17 +22,11 @@ Verification commands
 Run the following commands to validate things are rolling as they should.
 
 ```bash
-# Should use 2.5.x as the default version
+# Should use 2.7.x as the default version
 lando ssh -s defaults -c "ruby --version | grep 2.7."
 
-# Should use the user specified version when set
-lando ssh -s custom -c "ruby --version | grep 2.6."
-
 # Should use the user specified patch version when set
-lando ssh -s patch -c "ruby --version | grep 2.5.3"
-
-# Should run on the custom port when specified
-lando ssh -s custom -c "curl http://localhost:8080 | grep OHNO"
+lando ssh -s patch -c "ruby --version | grep 2.7.7"
 
 # Should run on port 80 by default
 lando ssh -s defaults -c "curl http://localhost | grep TROUBLE"

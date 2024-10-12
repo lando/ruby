@@ -1,6 +1,6 @@
 ---
 title: Caveats
-description: Learn about caveats and known issues with the Lando PHP service.
+description: Learn about caveats and known issues with the Lando Ruby service.
 ---
 
 # Caveats

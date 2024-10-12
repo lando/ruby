@@ -22,8 +22,8 @@ Verification commands
 Run the following commands to validate things are rolling as they should.
 
 ```bash
-# Should use 3.0.x as the defined version
-lando ssh -s defaults -c "ruby --version | grep 3.0."
+# Should use 3.3.x as the defined version
+lando ssh -s defaults -c "ruby --version | grep 3.3."
 
 # Should use 3.1.x as the defined version
 lando ssh -s custom -c "ruby --version | grep 3.1."
