@@ -1,7 +1,7 @@
 name: lando-ruby-3
 services:
   defaults:
-    type: ruby:3.0
+    type: ruby:3.3
     command: ruby /app/server.rb
   custom:
     type: ruby:3.1
