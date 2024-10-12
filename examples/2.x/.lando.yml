@@ -3,12 +3,8 @@ services:
   defaults:
     type: ruby
     command: ruby /app/server.rb
-  custom:
-    type: ruby:2.6
-    port: 8080
-    command: ruby /app/server-custom.rb
   patch:
-    type: ruby:2.5.3
+    type: ruby:2.7.7
   cli:
     type: ruby
 

@@ -3,6 +3,7 @@
   * Update documentation to indicate new legacy versions
   * Update documentation to use the most recent version in examples
   * Add note to documentation regarding maintenance of version 2.7 as the default
+  * Remove tests for unsupported versions
 
 ## v1.2.1 - [April 9, 2024](https://github.com/lando/ruby/releases/tag/v1.2.1)
   * Added newline to config.mjs to pass linting.
