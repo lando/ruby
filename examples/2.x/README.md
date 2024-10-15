@@ -32,7 +32,7 @@ lando ssh -s patch -c "ruby --version | grep 2.7.7"
 lando ssh -s defaults -c "curl http://localhost | grep TROUBLE"
 
 # Should not serve port 80 for cli
-lando ssh -s cli -c "curl http://localhost" || echo $? | grep 1
+lando ssh -s cli -c "curl http://localhost" || echo $? | grep 7
 ```
 
 Destroy tests
