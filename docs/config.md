@@ -12,7 +12,7 @@ Also note that the options, in addition to the [build steps](https://docs.lando.
 ```yaml
 services:
   myservice:
-    type: ruby:2.5
+    type: ruby:3.3
     port: 80
     command: tail -f /dev/null
 ```

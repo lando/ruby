@@ -13,7 +13,7 @@ Add a `ruby` service to your Landofile
 ```yaml
 services:
   myservice:
-    type: ruby:2.5
+    type: ruby:3.3
 ```
 
 For more info you should check out the [docs](https://docs.lando.dev/ruby):
