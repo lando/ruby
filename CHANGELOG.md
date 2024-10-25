@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+* Updated release process to generate an edge release when stable releases are created.
+
 ## v1.3.0 - [October 16, 2024](https://github.com/lando/ruby/releases/tag/v1.3.0)
   * Consider v2.6 and 3.0 legacy
   * Updated documentation to indicate new legacy versions
