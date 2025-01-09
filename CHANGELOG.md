@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.5.0 - [January 9, 2025](https://github.com/lando/ruby/releases/tag/v1.5.0)
+
 * Added support for Ruby 3.4
 
 ## v1.4.3 - [December 6, 2024](https://github.com/lando/ruby/releases/tag/v1.4.3)
