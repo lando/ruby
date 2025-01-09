@@ -8,7 +8,7 @@ module.exports = {
   name: 'ruby',
   config: {
     version: '2.7',
-    supported: ['3.3', '3.2', '3.1', '3.0', '2.7', '2.6', '2.5', '2.4', '2.3', '1.9'],
+    supported: ['3.4', '3.3', '3.2', '3.1', '3.0', '2.7', '2.6', '2.5', '2.4', '2.3', '1.9'],
     patchesSupported: true,
     command: 'tail -f /dev/null',
     legacy: ['3.0', '2.6', '2.5', '2.4', '2.3', '1.9'],
