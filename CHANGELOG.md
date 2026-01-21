@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+- Added support for Ruby 4.0 and marked 3.1 as legacy
+
 ## v1.5.0 - [January 9, 2025](https://github.com/lando/ruby/releases/tag/v1.5.0)
 
 * Added support for Ruby 3.4
