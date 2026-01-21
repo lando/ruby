@@ -12,10 +12,10 @@ You can easily add it to your Lando app by adding an entry to the [services](htt
 
 ## Supported versions
 
+*   [4.0](https://hub.docker.com/_/ruby)
 *   [3.4](https://hub.docker.com/_/ruby)
 *   [3.3](https://hub.docker.com/_/ruby)
 *   [3.2](https://hub.docker.com/_/ruby)
-*   [3.1](https://hub.docker.com/_/ruby)
 *   **[2.7](https://hub.docker.com/_/ruby)** **(default)**
 *   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
 
@@ -23,6 +23,7 @@ You can easily add it to your Lando app by adding an entry to the [services](htt
 
 You can still run these versions with Lando but for all intents and purposes they should be considered deprecated (e.g. YMMV and do not expect a ton of support if you have an issue).
 
+*   [3.1](https://hub.docker.com/_/ruby)
 *   [3.0](https://hub.docker.com/_/ruby)
 *   [2.6](https://hub.docker.com/_/ruby)
 *   [2.5](https://hub.docker.com/_/ruby)
@@ -43,7 +44,7 @@ To use a patch version, you can do something as shown below:
 ```yaml
 services:
   myservice:
-    type: ruby:3.4.1
+    type: ruby:4.0.1
 ```
 
 But make sure you use one of the available [patch tags](https://hub.docker.com/_/ruby/tags) for the underlying image we are using.

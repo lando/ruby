@@ -1,4 +1,4 @@
-Ruby Example
+Ruby 3.x Example
 ============
 
 This example exists primarily to test the following documentation:
@@ -25,11 +25,11 @@ Run the following commands to validate things are rolling as they should.
 # Should use 3.4.x as the defined version
 lando ssh -s defaults -c "ruby --version | grep 3.4."
 
-# Should use 3.1.x as the defined version
-lando ssh -s custom -c "ruby --version | grep 3.1."
+# Should use 3.3.x as the defined version
+lando ssh -s custom -c "ruby --version | grep 3.3."
 
 # Should use the user specified patch version when set
-lando ssh -s patch -c "ruby --version | grep 3.1.2"
+lando ssh -s patch -c "ruby --version | grep 3.3.1"
 
 # Should run on the custom port when specified
 lando ssh -s custom -c "curl http://localhost:8080 | grep OHNO"
