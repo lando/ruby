@@ -8,7 +8,7 @@ next: ./config.html
 
 [Ruby](https://www.ruby-lang.org/en/) A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
 
-You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/core/v3/services/lando.html) top-level config in your [Landofile](https://docs.lando.dev/core/v3).
+You can easily add it to your Lando app by adding an entry to the [services](https://docs.lando.dev/services/lando-3.html) top-level config in your [Landofile](https://docs.lando.dev/landofile/).
 
 ## Supported versions
 
@@ -17,7 +17,7 @@ You can easily add it to your Lando app by adding an entry to the [services](htt
 *   [3.3](https://hub.docker.com/_/ruby)
 *   [3.2](https://hub.docker.com/_/ruby)
 *   **[2.7](https://hub.docker.com/_/ruby)** **(default)**
-*   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
+*   [custom](https://docs.lando.dev/services/lando-3.html#overrides)
 
 ## Legacy versions
 
