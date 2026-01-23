@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.6.0 - [January 23, 2026](https://github.com/lando/ruby/releases/tag/v1.6.0)
+
 - Added support for Ruby 4.0 and marked 3.1 as legacy
 - Updated to Node 20
 
