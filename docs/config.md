@@ -26,7 +26,7 @@ If you want to actually launch a `ruby` application, consider setting the `comma
 ```yaml
 services:
   myservice:
-    type: ruby
+    type: ruby:4.0
     command: ruby /app/my-server.rb
 ```
 
@@ -37,7 +37,7 @@ While we assume your `ruby` service is running on port `80`, we recognize that m
 ```yaml
 services:
   myservice:
-    type: ruby
+    type: ruby:4.0
     port: 8080
 ```
 
@@ -47,7 +47,7 @@ By default a service will not do any tooling routing for you but you can add hel
 
 ```yaml
 tooling:
-  donet:
+  dotnet:
     service: myservice
 ```
 
